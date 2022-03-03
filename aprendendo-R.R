@@ -157,5 +157,17 @@ b
 b= round( 1, 2.58)
 b
 
+escreve.nome = function()
+{
+  nome = readline("Qual o seu nome? ")
+  cat("Seu nome é :", nome)
+}
 
+multiplica.por.dois = function(numero)
+{
+  dobro = numero*2
+  return(dobro)
+}
+
+resposta = multiplica.por.dois(4)
 
