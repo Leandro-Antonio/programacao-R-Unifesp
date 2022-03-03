@@ -170,4 +170,10 @@ multiplica.por.dois = function(numero)
 }
 
 resposta = multiplica.por.dois(4)
+print(resposta)
 
+cat("Qual o seu nome?", "\n")
+perguntaNome = readline("Digite o seu primeiro nome:")
+cat("Qual o seu sobrenome?","\n")
+perguntaSobrenome = readline("Digite o seu sobrenome:")
+cat("O seu nome completo é :", perguntaNome, perguntaSobrenome)
