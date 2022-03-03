@@ -102,3 +102,60 @@ var.b = intToBits(2)
 var.b
 typeof(var.a)
 
+a= c(1,2,3)
+typeof(a)
+b= c(1,2,"3")
+typeof(b)
+print(b)
+
+a= c(1,2,T)
+print(a)
+typeof(a)
+b= c(1,2,F)
+print(b)
+typeof(b)
+
+b= c(1,"a", T)
+print(b)
+typeof(b)
+
+round(5.4)
+round(5.5)
+
+b= sum(1:3)
+b
+
+b= sqrt(9)
+b
+a= 1:6
+mean(a)
+
+b= round(mean(a))
+b
+
+
+a= c(1,2,NA)
+a
+b= sum(a)
+b
+b= sum(a, na.rm =T)
+b
+
+args(sum)
+
+b= round(2.58)
+b
+args(round)
+b= round(2.58, 1)
+b
+
+?round
+b= round(2.584321, digits= 4)
+b
+b= round(digits= 1, 2.58)
+b
+b= round( 1, 2.58)
+b
+
+
+
